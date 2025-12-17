@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Bayside Green Solutions - Get Your Free Quote',
@@ -101,111 +102,7 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div>
-              <div className="bg-gray-50 p-8 rounded-lg">
-                <h2 className="text-2xl font-bold mb-6">Request a Free Quote</h2>
-                <form className="space-y-4">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                      Full Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="John Smith"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                      Email Address *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="john@example.com"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                      Phone Number *
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="0400 000 000"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="suburb" className="block text-sm font-medium text-gray-700 mb-1">
-                      Suburb *
-                    </label>
-                    <input
-                      type="text"
-                      id="suburb"
-                      name="suburb"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="e.g. Brighton"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">
-                      Service Required *
-                    </label>
-                    <select
-                      id="service"
-                      name="service"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                    >
-                      <option value="">Select a service...</option>
-                      <option value="garden-design">Garden Design & Landscaping</option>
-                      <option value="lawn-care">Lawn Care & Maintenance</option>
-                      <option value="tree-trimming">Tree & Hedge Trimming</option>
-                      <option value="irrigation">Irrigation Systems</option>
-                      <option value="paving">Paving & Retaining Walls</option>
-                      <option value="cleanup">Garden Cleanup & Mulching</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                      Project Details
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="Tell us about your project..."
-                    ></textarea>
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="w-full bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200"
-                  >
-                    Send Enquiry
-                  </button>
-
-                  <p className="text-sm text-gray-600 text-center">
-                    Or call us directly on <a href="tel:0400000000" className="text-primary-600 font-semibold">0400 000 000</a>
-                  </p>
-                </form>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </div>
