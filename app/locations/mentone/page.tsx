@@ -1,0 +1,78 @@
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import CTASection from '@/components/CTASection'
+
+export const metadata: Metadata = {
+  title: 'Landscaping Services in Mentone VIC | Bayside Green Solutions',
+  description: 'Professional landscaping, garden design, and lawn care services in Mentone, Melbourne. Local Mentone landscaper. Call for a free quote!',
+  keywords: 'landscaping Mentone, Mentone landscaper, garden design Mentone, lawn care Mentone VIC',
+}
+
+export default function MentonePage() {
+  return (
+    <>
+      <section className="bg-primary-700 text-white py-16">
+        <div className="container-custom">
+          <Link href="/locations" className="text-primary-200 hover:text-white mb-4 inline-block">
+            ← Back to Locations
+          </Link>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Landscaping Services in Mentone</h1>
+          <p className="text-xl text-primary-50">
+            Expert garden care and landscaping for Mentone residents
+          </p>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6">Mentone's Trusted Landscaping Service</h2>
+            <p className="text-lg text-gray-700 mb-6">
+              Bayside Green Solutions brings professional landscaping expertise to Mentone homes and businesses. From garden design to regular maintenance, our local team provides reliable service that keeps your outdoor space looking its best.
+            </p>
+
+            <div className="bg-primary-50 p-8 rounded-lg mb-8">
+              <h3 className="text-2xl font-semibold mb-4">Services in Mentone:</h3>
+              <ul className="grid md:grid-cols-2 gap-3">
+                <li className="flex items-start">
+                  <span className="text-primary-600 mr-2">✓</span>
+                  <span>Custom Garden Design</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-600 mr-2">✓</span>
+                  <span>Regular Lawn Care</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-600 mr-2">✓</span>
+                  <span>Tree & Hedge Work</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-600 mr-2">✓</span>
+                  <span>Irrigation Solutions</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-600 mr-2">✓</span>
+                  <span>Paving Services</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-600 mr-2">✓</span>
+                  <span>Seasonal Maintenance</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-900 text-white p-8 rounded-lg text-center">
+              <h3 className="text-2xl font-bold mb-4">Get Started in Mentone</h3>
+              <p className="mb-6">Call for a free landscaping consultation</p>
+              <a href="tel:0400000000" className="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 inline-block">
+                Call 0400 000 000
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <CTASection />
+    </>
+  )
+}
