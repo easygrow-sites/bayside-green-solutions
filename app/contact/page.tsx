@@ -3,7 +3,7 @@ import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Bayside Green Solutions - Get Your Free Quote',
-  description: 'Contact Bayside Green Solutions for professional landscaping services in Bayside, Melbourne. Call 0400 000 000 or request a free quote online.',
+  description: 'Contact Bayside Green Solutions for professional landscaping services in Bayside, Melbourne. Call 0456 994 959 or request a free quote online.',
   keywords: 'contact landscaper Bayside, free landscaping quote, Bayside Green Solutions contact',
 }
 
@@ -38,8 +38,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Phone</h3>
-                    <a href="tel:0400000000" className="text-primary-600 hover:text-primary-700 text-lg font-semibold">
-                      0400 000 000
+                    <a href="tel:0456994959" className="text-primary-600 hover:text-primary-700 text-lg font-semibold">
+                      0456 994 959
                     </a>
                     <p className="text-gray-600 text-sm mt-1">Mon - Sat: 7am - 6pm</p>
                   </div>

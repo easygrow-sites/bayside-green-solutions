@@ -100,8 +100,8 @@ export default function PavingRetainingWallsPage() {
             <div className="bg-gray-900 text-white p-8 rounded-lg text-center">
               <h3 className="text-2xl font-bold mb-4">Start Your Hardscaping Project</h3>
               <p className="mb-6">Contact us for a free consultation and detailed quote</p>
-              <a href="tel:0400000000" className="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 inline-block">
-                Call 0400 000 000
+              <a href="tel:0456994959" className="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 inline-block">
+                Call 0456 994 959
               </a>
             </div>
           </div>

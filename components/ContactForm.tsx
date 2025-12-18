@@ -130,7 +130,7 @@ export default function ContactForm() {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-            placeholder="0400 000 000"
+            placeholder="0456 994 959"
           />
         </div>
 
@@ -197,7 +197,7 @@ export default function ContactForm() {
         </button>
 
         <p className="text-sm text-gray-600 text-center">
-          Or call us directly on <a href="tel:0400000000" className="text-primary-600 font-semibold">0400 000 000</a>
+          Or call us directly on <a href="tel:0456994959" className="text-primary-600 font-semibold">0456 994 959</a>
         </p>
       </form>
     </div>

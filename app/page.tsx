@@ -78,8 +78,8 @@ export default function Home() {
               Transform your outdoor space with Bayside Green Solutions. Expert garden design, maintenance, and landscaping services across Melbourne's Bayside suburbs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:0400000000" className="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 text-center text-lg">
-                Call 0400 000 000
+              <a href="tel:0456994959" className="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 text-center text-lg">
+                Call 0456 994 959
               </a>
               <Link href="/contact" className="bg-primary-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-900 transition-colors duration-200 text-center text-lg border-2 border-white">
                 Get Free Quote

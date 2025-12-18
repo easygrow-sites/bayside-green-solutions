@@ -11,8 +11,8 @@ export default function CTASection() {
           Get a free, no-obligation quote today
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href="tel:0400000000" className="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 text-lg">
-            Call 0400 000 000
+          <a href="tel:0456994959" className="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 text-lg">
+            Call 0456 994 959
           </a>
           <Link href="/contact" className="bg-primary-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-800 transition-colors duration-200 text-lg">
             Request a Quote

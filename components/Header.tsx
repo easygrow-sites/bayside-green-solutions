@@ -25,13 +25,13 @@ export default function Header() {
             <Link href="/contact" className="text-gray-700 hover:text-primary-600 transition-colors">
               Contact
             </Link>
-            <a href="tel:0400000000" className="btn-primary">
+            <a href="tel:0456994959" className="btn-primary">
               Call Now
             </a>
           </div>
 
           <div className="md:hidden">
-            <a href="tel:0400000000" className="btn-primary text-sm px-4 py-2">
+            <a href="tel:0456994959" className="btn-primary text-sm px-4 py-2">
               Call Now
             </a>
           </div>

@@ -26,8 +26,8 @@ export default function Footer() {
             <p className="text-gray-400 mb-4">
               Professional landscaping services across Bayside, Melbourne. Your garden transformation experts.
             </p>
-            <a href="tel:0400000000" className="text-primary-400 hover:text-primary-300 font-semibold">
-              Call: 0400 000 000
+            <a href="tel:0456994959" className="text-primary-400 hover:text-primary-300 font-semibold">
+              Call: 0456 994 959
             </a>
           </div>
 

@@ -166,8 +166,8 @@ export default function GardenDesignPage() {
               <h3 className="text-2xl font-bold mb-4">Ready to Transform Your Garden?</h3>
               <p className="mb-6 text-gray-300">Call us today for a free consultation and quote</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:0400000000" className="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 inline-block">
-                  Call 0400 000 000
+                <a href="tel:0456994959" className="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 inline-block">
+                  Call 0456 994 959
                 </a>
                 <Link href="/contact" className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-block">
                   Get Free Quote
