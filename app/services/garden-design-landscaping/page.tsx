@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 }
 
 const galleryImages = [
-  { src: 'https://source.unsplash.com/600x400/?garden,design&sig=gd1', alt: 'Modern garden design' },
-  { src: 'https://source.unsplash.com/600x400/?landscaping,backyard&sig=gd2', alt: 'Backyard landscaping' },
-  { src: 'https://source.unsplash.com/600x400/?garden,plants&sig=gd3', alt: 'Garden plant arrangement' },
-  { src: 'https://source.unsplash.com/600x400/?outdoor,garden&sig=gd4', alt: 'Outdoor living space' },
+  { src: 'https://picsum.photos/seed/gd-gallery-1/600/400', alt: 'Modern garden design' },
+  { src: 'https://picsum.photos/seed/gd-gallery-2/600/400', alt: 'Backyard landscaping' },
+  { src: 'https://picsum.photos/seed/gd-gallery-3/600/400', alt: 'Garden plant arrangement' },
+  { src: 'https://picsum.photos/seed/gd-gallery-4/600/400', alt: 'Outdoor living space' },
 ]
 
 export default function GardenDesignPage() {
@@ -22,7 +22,7 @@ export default function GardenDesignPage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://source.unsplash.com/1920x800/?garden,design,landscaping&sig=gdhero"
+            src="https://picsum.photos/seed/gd-hero/1920/800"
             alt="Professional garden design and landscaping"
             className="w-full h-full object-cover"
           />
@@ -55,7 +55,7 @@ export default function GardenDesignPage() {
               </div>
               <div>
                 <img
-                  src="https://source.unsplash.com/600x400/?beautiful,garden,landscape&sig=gdintro"
+                  src="https://picsum.photos/seed/gd-intro/600/400"
                   alt="Beautiful landscape garden design"
                   className="rounded-xl shadow-lg w-full h-auto"
                 />
@@ -136,7 +136,7 @@ export default function GardenDesignPage() {
                   </p>
                 </div>
                 <img
-                  src="https://source.unsplash.com/500x400/?landscaper,gardening&sig=gdwhy"
+                  src="https://picsum.photos/seed/gd-why/500/400"
                   alt="Professional landscaper at work"
                   className="rounded-lg shadow-md"
                 />

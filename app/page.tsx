@@ -8,52 +8,52 @@ const services = [
     description: 'Transform your outdoor space with custom garden designs that reflect your style and enhance your property value.',
     slug: 'garden-design-landscaping',
     icon: '🌳',
-    image: 'https://source.unsplash.com/800x600/?garden,landscaping&sig=1'
+    image: 'https://picsum.photos/seed/garden-design/800/600'
   },
   {
     title: 'Lawn Care & Maintenance',
     description: 'Keep your lawn lush and healthy with our regular mowing, fertilizing, and maintenance services.',
     slug: 'lawn-care-maintenance',
     icon: '🌱',
-    image: 'https://source.unsplash.com/800x600/?lawn,grass&sig=2'
+    image: 'https://picsum.photos/seed/lawn-care/800/600'
   },
   {
     title: 'Tree & Hedge Trimming',
     description: 'Professional pruning and trimming services to keep your trees and hedges healthy and looking their best.',
     slug: 'tree-hedge-trimming',
     icon: '✂️',
-    image: 'https://source.unsplash.com/800x600/?hedge,trees&sig=3'
+    image: 'https://picsum.photos/seed/tree-hedge/800/600'
   },
   {
     title: 'Irrigation Systems',
     description: 'Efficient watering solutions with automated irrigation systems designed to save water and time.',
     slug: 'irrigation-systems',
     icon: '💧',
-    image: 'https://source.unsplash.com/800x600/?sprinkler,irrigation&sig=4'
+    image: 'https://picsum.photos/seed/irrigation/800/600'
   },
   {
     title: 'Paving & Retaining Walls',
     description: 'Create stunning outdoor living areas with quality paving, pathways, and structural retaining walls.',
     slug: 'paving-retaining-walls',
     icon: '🧱',
-    image: 'https://source.unsplash.com/800x600/?paving,stone,garden&sig=5'
+    image: 'https://picsum.photos/seed/paving-walls/800/600'
   },
   {
     title: 'Garden Cleanup & Mulching',
     description: 'Seasonal garden cleanup, waste removal, and mulching services to keep your garden pristine.',
     slug: 'garden-cleanup-mulching',
     icon: '🍂',
-    image: 'https://source.unsplash.com/800x600/?mulch,garden,cleanup&sig=6'
+    image: 'https://picsum.photos/seed/garden-cleanup/800/600'
   }
 ]
 
 const galleryImages = [
-  { src: 'https://source.unsplash.com/600x400/?beautiful,garden&sig=10', alt: 'Beautiful landscaped garden in Bayside Melbourne' },
-  { src: 'https://source.unsplash.com/600x400/?backyard,landscaping&sig=11', alt: 'Professional backyard landscaping' },
-  { src: 'https://source.unsplash.com/600x400/?garden,patio&sig=12', alt: 'Stunning garden patio design' },
-  { src: 'https://source.unsplash.com/600x400/?lawn,green&sig=13', alt: 'Lush green lawn maintenance' },
-  { src: 'https://source.unsplash.com/600x400/?outdoor,living&sig=14', alt: 'Outdoor living space design' },
-  { src: 'https://source.unsplash.com/600x400/?garden,flowers&sig=15', alt: 'Colorful garden flower beds' },
+  { src: 'https://picsum.photos/seed/gallery-1/600/400', alt: 'Beautiful landscaped garden in Bayside Melbourne' },
+  { src: 'https://picsum.photos/seed/gallery-2/600/400', alt: 'Professional backyard landscaping' },
+  { src: 'https://picsum.photos/seed/gallery-3/600/400', alt: 'Stunning garden patio design' },
+  { src: 'https://picsum.photos/seed/gallery-4/600/400', alt: 'Lush green lawn maintenance' },
+  { src: 'https://picsum.photos/seed/gallery-5/600/400', alt: 'Outdoor living space design' },
+  { src: 'https://picsum.photos/seed/gallery-6/600/400', alt: 'Colorful garden flower beds' },
 ]
 
 export default function Home() {
@@ -63,7 +63,7 @@ export default function Home() {
       <section className="relative min-h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://source.unsplash.com/1920x1080/?landscaping,garden,melbourne&sig=hero"
+            src="https://picsum.photos/seed/hero-landscape/1920/1080"
             alt="Professional landscaping in Bayside Melbourne"
             className="w-full h-full object-cover"
           />
@@ -164,7 +164,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://source.unsplash.com/800x600/?landscaper,team,garden&sig=about"
+                src="https://picsum.photos/seed/team-about/800/600"
                 alt="Bayside Green Solutions landscaping team"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
@@ -270,7 +270,7 @@ export default function Home() {
             </div>
             <div>
               <img
-                src="https://source.unsplash.com/800x600/?melbourne,suburb,aerial&sig=locations"
+                src="https://picsum.photos/seed/melbourne-suburbs/800/600"
                 alt="Bayside Melbourne suburbs we service"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
@@ -289,7 +289,7 @@ export default function Home() {
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <img
-                src="https://source.unsplash.com/100x100/?portrait,woman&sig=review"
+                src="https://picsum.photos/seed/customer-review/100/100"
                 alt="Happy customer"
                 className="w-16 h-16 rounded-full object-cover"
               />
