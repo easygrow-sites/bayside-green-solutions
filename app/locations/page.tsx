@@ -29,8 +29,16 @@ const locations = [
 export default function LocationsPage() {
   return (
     <>
-      <section className="bg-primary-700 text-white py-16">
-        <div className="container-custom">
+      <section className="relative min-h-[400px] flex items-center">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1920&h=800&fit=crop"
+            alt="Our Service Locations"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/90 to-primary-800/70" />
+        </div>
+        <div className="container-custom relative z-10 py-16 text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Service Locations</h1>
           <p className="text-xl text-primary-50">
             Professional landscaping services across Bayside, Melbourne
