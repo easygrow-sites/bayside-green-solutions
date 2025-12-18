@@ -8,52 +8,52 @@ const services = [
     description: 'Transform your outdoor space with custom garden designs that reflect your style and enhance your property value.',
     slug: 'garden-design-landscaping',
     icon: '🌳',
-    image: 'https://picsum.photos/seed/garden-design/800/600'
+    image: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800&h=600&fit=crop'
   },
   {
     title: 'Lawn Care & Maintenance',
     description: 'Keep your lawn lush and healthy with our regular mowing, fertilizing, and maintenance services.',
     slug: 'lawn-care-maintenance',
     icon: '🌱',
-    image: 'https://picsum.photos/seed/lawn-care/800/600'
+    image: 'https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=800&h=600&fit=crop'
   },
   {
     title: 'Tree & Hedge Trimming',
     description: 'Professional pruning and trimming services to keep your trees and hedges healthy and looking their best.',
     slug: 'tree-hedge-trimming',
     icon: '✂️',
-    image: 'https://picsum.photos/seed/tree-hedge/800/600'
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&h=600&fit=crop'
   },
   {
     title: 'Irrigation Systems',
     description: 'Efficient watering solutions with automated irrigation systems designed to save water and time.',
     slug: 'irrigation-systems',
     icon: '💧',
-    image: 'https://picsum.photos/seed/irrigation/800/600'
+    image: 'https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=800&h=600&fit=crop'
   },
   {
     title: 'Paving & Retaining Walls',
     description: 'Create stunning outdoor living areas with quality paving, pathways, and structural retaining walls.',
     slug: 'paving-retaining-walls',
     icon: '🧱',
-    image: 'https://picsum.photos/seed/paving-walls/800/600'
+    image: 'https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=800&h=600&fit=crop'
   },
   {
     title: 'Garden Cleanup & Mulching',
     description: 'Seasonal garden cleanup, waste removal, and mulching services to keep your garden pristine.',
     slug: 'garden-cleanup-mulching',
     icon: '🍂',
-    image: 'https://picsum.photos/seed/garden-cleanup/800/600'
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&h=600&fit=crop'
   }
 ]
 
 const galleryImages = [
-  { src: 'https://picsum.photos/seed/gallery-1/600/400', alt: 'Beautiful landscaped garden in Bayside Melbourne' },
-  { src: 'https://picsum.photos/seed/gallery-2/600/400', alt: 'Professional backyard landscaping' },
-  { src: 'https://picsum.photos/seed/gallery-3/600/400', alt: 'Stunning garden patio design' },
-  { src: 'https://picsum.photos/seed/gallery-4/600/400', alt: 'Lush green lawn maintenance' },
-  { src: 'https://picsum.photos/seed/gallery-5/600/400', alt: 'Outdoor living space design' },
-  { src: 'https://picsum.photos/seed/gallery-6/600/400', alt: 'Colorful garden flower beds' },
+  { src: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&h=400&fit=crop', alt: 'Beautiful landscaped garden in Bayside Melbourne' },
+  { src: 'https://images.unsplash.com/photo-1598902108854-10e335adac99?w=600&h=400&fit=crop', alt: 'Professional backyard landscaping' },
+  { src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop', alt: 'Stunning garden patio design' },
+  { src: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?w=600&h=400&fit=crop', alt: 'Lush green lawn maintenance' },
+  { src: 'https://images.unsplash.com/photo-1564429238718-46d9077971e3?w=600&h=400&fit=crop', alt: 'Outdoor living space design' },
+  { src: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&h=400&fit=crop', alt: 'Colorful garden flower beds' },
 ]
 
 export default function Home() {
@@ -63,7 +63,7 @@ export default function Home() {
       <section className="relative min-h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://picsum.photos/seed/hero-landscape/1920/1080"
+            src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1920&h=1080&fit=crop"
             alt="Professional landscaping in Bayside Melbourne"
             className="w-full h-full object-cover"
           />
@@ -164,7 +164,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://picsum.photos/seed/team-about/800/600"
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop"
                 alt="Bayside Green Solutions landscaping team"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
@@ -270,7 +270,7 @@ export default function Home() {
             </div>
             <div>
               <img
-                src="https://picsum.photos/seed/melbourne-suburbs/800/600"
+                src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800&h=600&fit=crop"
                 alt="Bayside Melbourne suburbs we service"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
@@ -289,7 +289,7 @@ export default function Home() {
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <img
-                src="https://picsum.photos/seed/customer-review/100/100"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
                 alt="Happy customer"
                 className="w-16 h-16 rounded-full object-cover"
               />
