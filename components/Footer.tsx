@@ -10,8 +10,8 @@ const services = [
 ]
 
 const locations = [
-  'Brighton', 'Hampton', 'Sandringham', 'Black Rock', 'Beaumaris',
-  'Cheltenham', 'Mentone', 'Moorabbin', 'Highett', 'Parkdale'
+  'Redlands', 'Cleveland', 'Wellington Point', 'Ormiston', 'Thornlands',
+  'Victoria Point', 'Redland Bay', 'Capalaba', 'Sheldon', 'Mount Cotton'
 ]
 
 export default function Footer() {
