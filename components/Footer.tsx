@@ -34,8 +34,8 @@ export default function Footer() {
               <p className="text-gray-400 text-sm mb-1">Business Hours:</p>
               <p className="text-primary-400 font-semibold">7am - 5pm</p>
             </div>
-            <a href="tel:0456994959" className="text-primary-400 hover:text-primary-300 font-semibold">
-              Call: 0456 994 959
+            <a href="tel:0400123456" className="text-primary-400 hover:text-primary-300 font-semibold">
+              Call: 0400 123 456
             </a>
           </div>
 
