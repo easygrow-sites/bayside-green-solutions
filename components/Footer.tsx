@@ -99,6 +99,9 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
+          <div className="mb-4">
+            <img src="/logo.png" alt="Bayside Green Solutions" className="h-12 mx-auto opacity-80" />
+          </div>
           <p>&copy; {new Date().getFullYear()} Bayside Green Solutions. All rights reserved.</p>
           <p className="mt-2">Aaron Peter | <a href="mailto:aaron@bayside.com.au" className="hover:text-primary-400 transition-colors">aaron@bayside.com.au</a></p>
         </div>
