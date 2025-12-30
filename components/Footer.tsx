@@ -24,7 +24,7 @@ export default function Footer() {
               Bayside Green Solutions
             </h3>
             <p className="text-gray-400 mb-4">
-              Professional landscaping services across Bayside, Melbourne. Your garden transformation experts.
+              Professional landscaping services across Bayside, Queensland. Your garden transformation experts.
             </p>
             <div className="mb-3">
               <p className="text-gray-400 text-sm mb-1">Address:</p>
