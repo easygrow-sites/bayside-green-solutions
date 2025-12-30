@@ -27,6 +27,10 @@ export default function Footer() {
               Professional landscaping services across Bayside, Melbourne. Your garden transformation experts.
             </p>
             <div className="mb-3">
+              <p className="text-gray-400 text-sm mb-1">Address:</p>
+              <p className="text-white">100 Eagle Street<br />Brisbane QLD 4000</p>
+            </div>
+            <div className="mb-3">
               <p className="text-gray-400 text-sm mb-1">Business Hours:</p>
               <p className="text-primary-400 font-semibold">7am - 5pm</p>
             </div>
