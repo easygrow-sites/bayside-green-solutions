@@ -14,7 +14,7 @@ export default function GardenCleanupPage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&h=800&fit=crop"
+            src="https://images.unsplash.com/photo-1592150621744-aca64f48394a?w=1920&h=800&fit=crop"
             alt="Garden Cleanup & Mulching"
             className="w-full h-full object-cover"
           />

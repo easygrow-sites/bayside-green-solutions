@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 }
 
 const galleryImages = [
-  { src: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?w=600&h=400&fit=crop', alt: 'Modern garden design' },
+  { src: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=600&h=400&fit=crop', alt: 'Modern garden design' },
   { src: 'https://images.unsplash.com/photo-1598902108854-10e335adac99?w=600&h=400&fit=crop', alt: 'Backyard landscaping' },
   { src: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&h=400&fit=crop', alt: 'Garden plant arrangement' },
-  { src: 'https://images.unsplash.com/photo-1564429238718-46d9077971e3?w=600&h=400&fit=crop', alt: 'Outdoor living space' },
+  { src: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=600&h=400&fit=crop', alt: 'Outdoor living space' },
 ]
 
 export default function GardenDesignPage() {
@@ -22,7 +22,7 @@ export default function GardenDesignPage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1920&h=800&fit=crop"
+            src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=1920&h=800&fit=crop"
             alt="Professional garden design and landscaping"
             className="w-full h-full object-cover"
           />
@@ -136,7 +136,7 @@ export default function GardenDesignPage() {
                   </p>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1592650996789-7ee59a23a331?w=500&h=400&fit=crop"
                   alt="Professional landscaper at work"
                   className="rounded-lg shadow-md"
                 />

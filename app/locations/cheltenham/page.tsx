@@ -14,7 +14,7 @@ export default function CheltenhamPage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1920&h=800&fit=crop"
+            src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1920&h=800&fit=crop"
             alt="Landscaping Services in Cheltenham"
             className="w-full h-full object-cover"
           />

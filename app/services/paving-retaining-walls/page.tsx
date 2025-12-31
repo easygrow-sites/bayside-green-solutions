@@ -14,7 +14,7 @@ export default function PavingRetainingWallsPage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1587582423116-ec07293f0395?w=1920&h=800&fit=crop"
+            src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1920&h=800&fit=crop"
             alt="Paving & Retaining Walls"
             className="w-full h-full object-cover"
           />

@@ -14,7 +14,7 @@ export default function IrrigationSystemsPage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&h=800&fit=crop"
+            src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1920&h=800&fit=crop"
             alt="Irrigation Systems"
             className="w-full h-full object-cover"
           />

@@ -14,7 +14,7 @@ export default function LawnCarePage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=1920&h=800&fit=crop"
+            src="https://images.unsplash.com/photo-1563720360172-67b8f3dce741?w=1920&h=800&fit=crop"
             alt="Professional lawn care and maintenance"
             className="w-full h-full object-cover"
           />
@@ -43,7 +43,7 @@ export default function LawnCarePage() {
               </div>
               <div>
                 <img
-                  src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=600&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&h=400&fit=crop"
                   alt="Lush green lawn"
                   className="rounded-xl shadow-lg w-full h-auto"
                 />

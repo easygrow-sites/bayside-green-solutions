@@ -14,7 +14,7 @@ export default function TreeHedgeTrimmingPage() {
       <section className="relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&h=800&fit=crop"
+            src="https://images.unsplash.com/photo-1615671524827-c1fe3973b648?w=1920&h=800&fit=crop"
             alt="Tree & Hedge Trimming"
             className="w-full h-full object-cover"
           />
