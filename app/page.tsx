@@ -63,7 +63,7 @@ export default function Home() {
       <section className="relative min-h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=1920&h=1080&fit=crop"
             alt="Professional landscaping in Bayside Melbourne"
             className="w-full h-full object-cover"
           />
