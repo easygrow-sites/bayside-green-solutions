@@ -29,14 +29,14 @@ const services = [
     description: 'Efficient watering solutions with automated irrigation systems designed to save water and time.',
     slug: 'irrigation-systems',
     icon: '💧',
-    image: 'https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=800&h=600&fit=crop'
+    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=600&fit=crop'
   },
   {
     title: 'Paving & Retaining Walls',
     description: 'Create stunning outdoor living areas with quality paving, pathways, and structural retaining walls.',
     slug: 'paving-retaining-walls',
     icon: '🧱',
-    image: 'https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=800&h=600&fit=crop'
+    image: 'https://images.unsplash.com/photo-1587582423116-ec07293f0395?w=800&h=600&fit=crop'
   },
   {
     title: 'Garden Cleanup & Mulching',
