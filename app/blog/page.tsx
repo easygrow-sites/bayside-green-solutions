@@ -3,6 +3,9 @@ import { getAllBlogPosts } from '@/lib/blog'
 import BlogCard from '@/components/BlogCard'
 import CTASection from '@/components/CTASection'
 
+// Enable ISR - revalidate every 60 seconds for new content
+export const revalidate = 60
+
 export const metadata: Metadata = {
   title: 'Landscaping Tips & Garden Advice Blog | Bayside Green Solutions',
   description: 'Expert landscaping tips, garden maintenance advice, and outdoor living inspiration from the Bayside Green Solutions team in Melbourne.',
