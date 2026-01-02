@@ -4,6 +4,10 @@ import Link from 'next/link'
 import { getBlogPost, getAllBlogSlugs } from '@/lib/blog'
 import CTASection from '@/components/CTASection'
 
+// Enable ISR - revalidate every 60 seconds for new content
+export const revalidate = 60
+export const dynamicParams = true
+
 interface PageProps {
   params: { slug: string }
 }
