@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const BUSINESS_ID = "cmj9dfzi60002107aeff9h6o0";
-const API_ENDPOINT = "https://dashboard-sigma-six-16.vercel.app/api/leads/submit";
+const API_ENDPOINT = "https://www.easygrow.contractors/api/leads/submit";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
